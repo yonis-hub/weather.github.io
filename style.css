@@ -1,0 +1,125 @@
+/* Nav Bar */
+.navbar {
+  max-height: 50px;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: rgb(160, 160, 160);
+}
+.navigation .navbar-brand {
+  color: white;
+  margin-left: 0px;
+  padding: inherit;
+  font-weight: bold;
+  background-color: red;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.navbar {
+  background-color: rgb(255, 255, 255);
+  font-size: 25px; 
+}
+.active, .dropdown-menu .dropdown-item:active a:hover {
+  background-color: black !important;
+}
+.dropdown-item {
+  color: rgb(94, 123, 250) !important;
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+  color: #3e6bdf !important;
+}
+
+.nav-link:hover {
+  background-blend-mode: lighten;
+  color: #3e6bdf !important;
+ }
+
+.navbar-brand:hover {
+color: #3e6bdf !important;
+}
+
+a {
+  color: black;
+  font-size: 20px;
+}
+
+/* Drop Drown in Nav */
+@media(max-width: 992px) {
+  .navbar-expand-lg {
+  background-color: #567fe7 !important;
+  }
+  .navbar {
+    max-height: none;
+    padding: inherit;
+  }
+  .navbar div {
+    margin: inherit;
+    background-color: rgb(232, 8, 8);
+  }
+  .navbar-brand {
+    padding: 10px !important;
+  }
+  button{
+    margin-right: 30px;
+  }
+  button:focus {
+    outline: 1px dotted;
+    outline: auto 5px;
+  }
+}
+
+
+/* Body Elements */
+
+/* Title */
+.title {
+  color: black;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+
+/* Paragraphs */
+p {
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+/* Images */
+img{
+  width:100% !important;
+  height:100% !important;
+}
+.active, .panel:hover {
+  border-color:black;
+  border-style: solid;
+  
+}
+.vizualization {
+  width:65% !important;
+  height:65% !important;
+  padding-right: 15px;
+}
+
+/* Boxes */
+.box {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  padding: 10px 30px 10px;
+  color: #940535;
+  background-color: honeydew;
+}
+
+/* Footer */
+footer {
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-top-color: #b3b3b3;
+  color: rgb(26, 26, 26);
+  min-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  width: 100%;
+  padding-top: 10px;
+  margin-bottom: 20;
+  }
